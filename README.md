@@ -50,7 +50,9 @@ Change direction after completing the required steps.
 Increase the number of steps after completing a full cycle of directions.
 
 * Complexity
+  
 Time complexity: O(rows×cols)
+
 Space complexity: O(rows×cols)
 
 # JAVA CODE
