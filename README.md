@@ -27,13 +27,13 @@ Constraints:
 
 # SOLUTION 
 
-*Intuition
+* Intuition
 The problem requires us to traverse a grid in a spiral order starting from a given cell. The idea is to simulate the spiral traversal while keeping track of the cells we visit. Since we need to visit every cell in the grid, we can accomplish this by iterating in a controlled manner.
 
-*Approach
+* Approach
 Direction Array: Define the directions for moving right, down, left, and up.
 
-*Initialize Variables:
+* Initialize Variables:
 
 num_steps to keep track of the steps taken in the current direction.
 total_cells to know the total number of cells in the grid.
@@ -49,7 +49,7 @@ If within bounds, add the cell to the result.
 Change direction after completing the required steps.
 Increase the number of steps after completing a full cycle of directions.
 
-*Complexity
+* Complexity
 Time complexity: O(rows×cols)
 Space complexity: O(rows×cols)
 
